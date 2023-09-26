@@ -1,0 +1,74 @@
+/* Estilo para o corpo de todas as páginas */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #ff69b4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho comum a todas as páginas */
+header {
+    background-color: #ff69b4;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para a navegação comum a todas as páginas */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+/* Estilo para seção comum a todas as páginas */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo para o rodapé comum a todas as páginas */
+footer {
+    background-color: #ff69b4;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para a tabela */
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+.produtos {
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o espaço interno da lista */
+}
+
+/* Estilo para exibir itens lado a lado */
+.produtos li {
+    display: inline-block; /* Exibe os itens lado a lado */
+    margin-right: 20px; /* Espaço entre os itens (ajuste conforme necessário) */
+}
+
+.produtos li img {
+    max-width: 100px; /* Define a largura máxima das imagens */
+    display: block; /* Remove espaço extra abaixo das imagens */
+}
+
+.produtos li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+}
